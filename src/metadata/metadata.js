@@ -4,9 +4,9 @@ module.exports = {
   baseUrl: 'https://michaelb.github.io/cv/',
   facts: {
     Residence: '<a href="https://www.google.com/maps/place/Grenoble/@45.1842207,5.6804372,13z/data=!4m5!3m4!1s0x478af48bd689be6f:0x618c10cd6e995398!8m2!3d45.188529!4d5.724524"><i class="fa fa-home"></i>Grenoble, France</a>',
-    LinkedIn: '<a href="https://www.linkedin.com/in/michael-bleuez-b2b737190/"><i class="fa fa-linkedin"></i>michael bleuez</a>',
-    GitHub: '<a href="https://github.com/michaelb"><i class="fa fa-github"></i>michaelb</a>',
-    Email: '<a href="mailto:michael.bleuez2@gmail.com"><i class="fa fa-envelope"></i>michael.bleuez2@gmail.com</a>',
+    "   LinkedIn": '<a href="https://www.linkedin.com/in/michael-bleuez-b2b737190/"><i class="fa fa-linkedin"></i>michael bleuez</a>',
+    "     GitHub": '<a href="https://github.com/michaelb"><i class="fa fa-github"></i>michaelb</a>',
+    "       Email": '<a href="mailto:michael.bleuez2@gmail.com"><i class="fa fa-envelope"></i>michael.bleuez2@gmail.com</a>',
   },
   languages: {
     Rust: '<a href="https://www.rust-lang.org" target="_blank"><img src="https://www.vectorlogo.zone/logos/rust-lang/rust-lang-icon.svg" alt="rust" width="40" height="40"><img/></a>',
@@ -40,7 +40,7 @@ module.exports = {
     Android : '<a href="http://android.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/android/android-official.svg" alt="android" width="40" height="40"/> </a>',
     Qt: '<a href="http://www.qt.io/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/qtio/qtio-icon.svg" alt="qt" width="40" height="40"/> </a>',
     TravisCI: '<a href="https://travis-ci.org/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/travis-ci/travis-ci-icon.svg" alt="travis-ci" width="40" height="40"/> </a>',
-    Oracle: '<a href="http://oracle.org/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/oracle/oracle-icon.svg" alt="oracle" width="40" height="40"/> </a>',
+    webmin: '<a href="https://www.webmin.com/" target="_blank"> <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/webmin.svg" alt="webmin" width="40" height="40"/> </a>',
     Wireshark: '<a href="https://wireshark.org" target="_blank"> <img src="https://www.vectorlogo.zone/logos/wireshark/wireshark-icon.svg" alt="wireshark" width="40" height="40"/> </a>',
     Windows: '<a href="https://www.microsoft.com/fr-fr/windows" target="_blank"> <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/windows.svg" alt="windows" width="40" height="40"/> </a>',
   },

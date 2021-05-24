@@ -24,10 +24,10 @@
             </p>
         </div>
        <div class="col-md-6 col-print-6">
-            <dl class="row">
+            <dl class="row" style="white-space: pre;">
                 {{#each facts}}
                 <!-- <dt class="col-4 col-md-5 text-md-right text-print-right font-weight-normal">{{@key}}:</dt> -->
-                <dd class="col-9 col-md-11">{{@key}}:   {{{this}}}</dd>
+                <dd class="col-9 col-md-11 text-left">{{@key}}:   {{{this}}}</dd>
                 {{/each}}
             </dl>
         </div>
