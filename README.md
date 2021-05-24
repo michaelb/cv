@@ -1,21 +1,5 @@
-# The Curriculum Vitae Template
+Link to pages: [http://michaelb.github.io/cv](http://michaelb.github.io/cv).
 
-You are an amazing developer. Keep your CV on GitHub. Host it on GitHub Pages. Have both HTML and PDF versions automatically generated and consistent. This is what good developers do.
-
-## What does this project do?
-
-* Helps you to manage your CV as a web app (HTML + CSS + JS).
-* Automatically generates and publishes HTML and PDF version on every push to `master`.
-
-Demo: [http://sneas.github.io/cv-template](http://sneas.github.io/cv-template).
-
-Real world example: [http://sneas.github.io/cv](http://sneas.github.io/cv).
-
-## Motivation
-
-GitHub Pages is probably the best place developer could store it's CV. Giving a potential employer a link to your CV stored on GitHub shows your strong desire for automation and definitely stands you out.
-
-The idea behind **The Curriculum Vitae Template** is to provide anyone a quick solution for creating and managing CV (both HTML and PDF versions) with the help of GitHub.
 
 ## Installation
 
@@ -23,6 +7,17 @@ The idea behind **The Curriculum Vitae Template** is to provide anyone a quick s
 1. Clone the newly created repo.
 1. Install project dependencies with `npm install`.
 1. Run `npm run deploy` to initialize `gh-pages`. This is a one time action. Further deployments will be initiated by GitHub Actions on every push to `master`.
+
+
+## Dev (notes to myself):
+
+Things to modify are in:
+- src/metadata/metadata.js
+- src/templates/index.html
+
+Sensitive info (like phone number) is in the stash of the local repo (or a non-pushed branch).
+
+
 
 ## Usage
 
