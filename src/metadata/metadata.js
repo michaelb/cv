@@ -52,8 +52,10 @@ module.exports = {
       date: 'Feb-Aug 2021',
       badges: ['C', 'HPC', 'IO'],
       contents: `
-- Study the state-of-art of caching technology.
-- Identify performance bottlenecks of an [IO accelerator](https://atos.net/en/2019/product-news_2019_02_07/atos-boosts-hpc-application-efficiency-new-flash-accelerator-solution) used on HPC systems, and develop solutions to improve the global throughput of the product within an Agile team.
+<ul>
+<li> Study the state-of-art of caching technology.</li>
+<li> Identify performance bottlenecks of an <a href="https://atos.net/en/2019/product-news_2019_02_07/atos-boosts-hpc-application-efficiency-new-flash-accelerator-solution" style="text-decoration:underline !important;color:inherit;">IO accelerator</a> used on HPC systems, and develop solutions to improve the global throughput of the product within an Agile team.</li>
+</ul>
 `
     },
     {
@@ -63,9 +65,11 @@ module.exports = {
       date: '2018-2021',
       badges: ['Linux', 'IT support'],
       contents: `
-- Provide support to students and help them install and manage a Linux-based work environment.
-- Take initiative to improve quality-of-life services such as documentation, installers and scripts, working with the support departement to integrate better with the school systems. 
-- Assist the support staff to perform maintenance and hardware upgrade tasks.
+<ul>
+<li>Provide support to students and help them install and manage a Linux-based work environment.</li>
+<li> Take initiative to improve quality-of-life services such as documentation, installers and scripts, working with the support departement to integrate better with the school systems.</li>
+<li> Assist the support staff to perform maintenance and hardware upgrade tasks.</li>
+</ul>
 `
     },
     {
@@ -75,29 +79,31 @@ module.exports = {
       link: 'https://www.rheagroup.com/',
       badges: ['virtualization', 'cybersecurity'],
       contents: `
-- Complete different, independent parts of a proof-of-concept cybersecurity project ([password cracking](https://github.com/michaelb/go-passwd-crack), [user simulation](https://github.com/michaelb/simple-user-simulation), SCADA/PLC system) in coordination with an international team.
-- Create reproducible VM and software setups for use by other teams.
+<ul>
+<li> Complete different, independent parts of a proof-of-concept cybersecurity project (<a href="https://github.com/michaelb/go-passwd-crack" style="text-decoration:underline !important;color:inherit;" >password cracking</a>, <a href="https://github.com/michaelb/simple-user-simulation" style="text-decoration:underline !important;color:inherit;">user simulation</a>, SCADA/PLC system) in coordination with an international team.</li>
+<li> Create reproducible VM and software setups for use by other teams.</li>
+</ul>
 `
     }
   ],
   projects: [
     {
-      header: 'Sniprun',
+      header: '<a href="https://github.com/michaelb/sniprun" style="text-decoration:none !important; color:inherit;">Sniprun</a>',
       skills: ['Rust', 'Lua', 'Neovim plugin'],
       link: 'https://github.com/michaelb/sniprun',
       contents: `
-[Sniprun](github.com/michaelb/sniprun) is my flagship open-source project. It allows users to run snippets of code directly from the editor (Neovim). In addition to the code itself, sniprun has a CI pipeline, a 'deployment' system, tests and coverage, extensive documentation, and showcases team & community work. 
+[Sniprun](https://github.com/michaelb/sniprun) is my flagship open-source project. It allows users to run snippets of code directly from the editor (Neovim). In addition to the code itself, sniprun has a CI pipeline, a 'deployment' system, tests and coverage, extensive documentation, and showcases team & community work. 
 `
     },
     {
-      header: 'Compiler (for a provided language)',
+      header: 'Compiler',
       skills: ['Java', 'DevOps'],
       contents: `
-A team school project running for 1 month, to create a compiler written in Java, [to compile] from an arbitrary object-oriented langage to machine code and LLVM IR.
+A school team project running for 1 month, to create a compiler written in Java, used on an arbitrary object-oriented langage to generate machine code and LLVM IR.
 `
     },
     {
-      header: '... and many others:',
+      header: '<a href="https://github.com/michaelb/" style="text-decoration:none !important; color:inherit;">... and many others:</a>',
       skills:[],
       contents:`
 - [shogai](github.com/michaelb/shogai) and [shogui](github.com/michaelb/shogui), a shogi library and GUI both in Rust

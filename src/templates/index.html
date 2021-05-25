@@ -7,6 +7,7 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -35,7 +36,7 @@
     <p>
         Hi!<br/>
         I'm a curious tinkerer fond of high-tech, software and computer science.<br/>
-        Making things (on the software side) and taking other things apart (hardware) is my n°1 hobby...and on the side I'm into music, challenges cat videos, and RC planes or sailing depending on the weather.
+        Making things (on the software side) and taking other things apart (hardware) is my n°1 hobby... and on the side I'm into music, digital art, and flying RC planes or sailing depending on the weather.
     </p>
 
     <h2> Programming Langages & Tech</h2>
@@ -65,17 +66,14 @@
 
     <h2>Professional Experience</h2>
     {{#each experience}}
-    <div class="card mb-4" style="display:inline-block;">
+    <div class="card mb-4 bg-light">
         <div class="card-body">
             <h3>{{ title }}</h3>
-                <p0 class="row" style="white-space:  pre;">
-                    <p class="text-muted">     {{ place }} - {{ date }}   </p>
-                    <a href="{{ link }}" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a>
-                </p0>
+            <p0 class="row" style="white-space:  pre;">
+                <p class="text-muted">     <a style="text-decoration:none! !important;color:inherit;" href="{{link}}">{{ place }} - {{ date }}</a>  </p>
 
-
-            {{{markdown contents }}}
-
+            </p0>
+            {{{ contents }}}
             <div>
                 {{#each badges }}
                 <span class="badge badge-primary">{{ this }}</span>
@@ -86,17 +84,17 @@
     {{/each}}
 
     <h2>Education</h2>
-            <p>2021 - <b>Engineering Diploma</b> -  <a href="https://ensimag.grenoble-inp.fr/" alt="Ensimag Grenoble-INP" target="_blank">Ensimag Grenoble-INP</a> (computer science and applied mathematics major)</p>
-            <p>2019 - <b>Bachelor degree</b> - <a href="https://ensimag.grenoble-inp.fr/" alt="Ensimag" target="_blank">Ensimag Grenoble-INP</a></p>
+            <p>2021 - <b>Engineering Diploma</b> -  <a style="text-decoration:underline !important;color:inherit" href="https://ensimag.grenoble-inp.fr/" alt="Ensimag Grenoble-INP" target="_blank">Ensimag Grenoble-INP</a> (computer science and applied mathematics major)</p>
+            <p>2019 - <b>Bachelor degree</b> - <a style="text-decoration:underline !important;color:inherit" href="https://ensimag.grenoble-inp.fr/" alt="Ensimag" target="_blank">Ensimag Grenoble-INP</a></p>
             <p>2015 - <b>High School Degree with honors</b> - Lycée Jules Ferry Cannes</p>
 
             <p>Additionally, I'm a French native, fluent English speaker (full-score TOEIC), and know the tiniest bit of Spanish.</p>
     <h2>Projects</h2>
 
     {{#each projects}}
-    <div class="card mt-4">
+    <div class="card mt-4 bg-light">
         <div class="card-body">
-            <div class="mb-2"><strong>{{{ header }}}</strong></div>
+            <div class="mb-2"><strong><h3>{{{ header }}}</h3></strong></div>
 
             {{{markdown contents }}}
 

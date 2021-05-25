@@ -7,14 +7,6 @@
         display: none;
     }
 
-    .card {
-        border: none;
-    }
-
-    .card-body {
-        padding: 0;
-    }
-
     .badge {
         border: 0.07rem solid #868e96;
     }
@@ -23,7 +15,17 @@
         color: inherit;
         background-color: inherit;
     }
-}
+
+    .card-container{
+	max-width:1400px;
+	width:95%;
+    }
+  
+    .card-body {
+        padding: 1;
+    }
+
+ }
 
 @media not print {
     .print {
