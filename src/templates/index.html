@@ -35,7 +35,7 @@
     <p>
         Hi!<br/>
         I'm a curious tinkerer fond of high-tech, software and computer science.<br/>
-        Making things (on the software side) and taking other things apart (hardware) is my n°1 hobby, and on the side I'm into music, cat videos, and RC planes or sailing depending on the weather.
+        Making things (on the software side) and taking other things apart (hardware) is my n°1 hobby...and on the side I'm into music, challenges cat videos, and RC planes or sailing depending on the weather.
     </p>
 
     <h2> Programming Langages & Tech</h2>
@@ -56,17 +56,11 @@
     <p>
         (and other tech I'm confortable with, unordered)
     </p>
-    <div class="row mx-auto mb-3">
+    <div class="row mx-9 mb-3">
             {{#each technology}}
             <div class="col-print-1 col-1 col-md-1 mb-3 col-lg-1 text-center">{{{ this }}}</div>
             {{/each}}
     </div>
-
-
-
-
-           
-
 
 
     <h2>Professional Experience</h2>
@@ -74,7 +68,11 @@
     <div class="card mb-4" style="display:inline-block;">
         <div class="card-body">
             <h3>{{ title }}</h3>
-                    <p class="text-muted">{{ place }} - {{ date }}</p>
+                <p0 class="row" style="white-space:  pre;">
+                    <p class="text-muted">     {{ place }} - {{ date }}   </p>
+                    <a href="{{ link }}" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                </p0>
+
 
             {{{markdown contents }}}
 
@@ -88,15 +86,17 @@
     {{/each}}
 
     <h2>Education</h2>
-            <p>2021 - <b>Engineering Diploma</b> -  <a href="https://ensimag.grenoble-inp.fr/" alt="Ensimag Grenoble-INP" target="_blank">Ensimag Grenoble-INP</a></p>
-            <p>2015 - <b>High School Degree (with honors)</b> - Lycée Jules Ferry Cannes</p>
+            <p>2021 - <b>Engineering Diploma</b> -  <a href="https://ensimag.grenoble-inp.fr/" alt="Ensimag Grenoble-INP" target="_blank">Ensimag Grenoble-INP</a> (computer science and applied mathematics major)</p>
+            <p>2019 - <b>Bachelor degree</b> - <a href="https://ensimag.grenoble-inp.fr/" alt="Ensimag" target="_blank">Ensimag Grenoble-INP</a></p>
+            <p>2015 - <b>High School Degree with honors</b> - Lycée Jules Ferry Cannes</p>
 
+            <p>Additionally, I'm a French native, fluent English speaker (full-score TOEIC), and know the tiniest bit of Spanish.</p>
     <h2>Projects</h2>
 
     {{#each projects}}
     <div class="card mt-4">
         <div class="card-body">
-            <div class="mb-2"><strong>{{ header }}</strong></div>
+            <div class="mb-2"><strong>{{{ header }}}</strong></div>
 
             {{{markdown contents }}}
 

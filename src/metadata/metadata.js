@@ -3,10 +3,10 @@ module.exports = {
   title: 'Software Engineer',
   baseUrl: 'https://michaelb.github.io/cv/',
   facts: {
-    "Residence": '<a href="https://www.google.com/maps/place/Grenoble/@45.1842207,5.6804372,13z/data=!4m5!3m4!1s0x478af48bd689be6f:0x618c10cd6e995398!8m2!3d45.188529!4d5.724524"><i class="fa fa-home"></i>Grenoble, France</a>',
-    "   LinkedIn": ' <a href="https://www.linkedin.com/in/michael-bleuez-b2b737190/"><i class="fa fa-linkedin"></i>michael bleuez</a>',
-    "     GitHub": '  <a href="https://github.com/michaelb"><i class="fa fa-github"></i>michaelb</a>',
-    "       Email": '  <a href="mailto:michael.bleuez2@gmail.com"><i class="fa fa-envelope"></i>michael.bleuez2@gmail.com</a>',
+    "Residence": '<a href="https://www.google.com/maps/place/Grenoble/@45.1842207,5.6804372,13z/data=!4m5!3m4!1s0x478af48bd689be6f:0x618c10cd6e995398!8m2!3d45.188529!4d5.724524" target="_blank"><i class="fa fa-home"></i>Grenoble, France</a>',
+    "   LinkedIn": ' <a href="https://www.linkedin.com/in/michael-bleuez-b2b737190/" target="_blank"><i class="fa fa-linkedin"></i>michael bleuez</a>',
+    "     GitHub": '  <a href="https://github.com/michaelb" target="_blank"><i class="fa fa-github"></i>michaelb</a>',
+    "       Email": '  <a href="mailto:michael.bleuez2@gmail.com" target="_blank"><i class="fa fa-envelope"></i>michael.bleuez2@gmail.com</a>',
   },
   languages: {
     Rust: '<a href="https://www.rust-lang.org" target="_blank"><img src="https://www.vectorlogo.zone/logos/rust-lang/rust-lang-icon.svg" alt="rust" width="40" height="40"><img/></a>',
@@ -48,21 +48,23 @@ module.exports = {
     {
       title: 'End of studies internship',
       place: 'Atos Bull R&D Data Management',
+      link: 'https://atos.net/en/',
       date: 'Feb-Aug 2021',
       badges: ['C', 'HPC', 'IO'],
       contents: `
 - Study the state-of-art of caching technology.
-- Identify performance bottlenecks of an IO accelerator used on HPC systems, and develop solutions to improve the global throughput of the product within an Agile team.
+- Identify performance bottlenecks of an [IO accelerator](https://atos.net/en/2019/product-news_2019_02_07/atos-boosts-hpc-application-efficiency-new-flash-accelerator-solution) used on HPC systems, and develop solutions to improve the global throughput of the product within an Agile team.
 `
     },
     {
       title: 'Part-time job',
       place:'IT support dept. Ensimag',
+      link: 'https://ensimag.grenoble-inp.fr/',
       date: '2018-2021',
       badges: ['Linux', 'IT support'],
       contents: `
-- Provide support to students and helping them install and manage a Linux-based work environment.
-- Take initiative to improve quality-of-life services such as documentation, installers and scripts, working with the support departement to integrate better with the schools systems. 
+- Provide support to students and help them install and manage a Linux-based work environment.
+- Take initiative to improve quality-of-life services such as documentation, installers and scripts, working with the support departement to integrate better with the school systems. 
 - Assist the support staff to perform maintenance and hardware upgrade tasks.
 `
     },
@@ -70,27 +72,42 @@ module.exports = {
       title: 'Summer internship',
       place: 'RHEA Group (Redu, Belgium)',
       date: 'Jul-Aug 2019',
+      link: 'https://www.rheagroup.com/',
       badges: ['virtualization', 'cybersecurity'],
       contents: `
-- Complete different parts of a proof-of-concept cybersecurity project (password cracking, user simulation, SCADA/PLC) in coordination with an international team.
+- Complete different, independent parts of a proof-of-concept cybersecurity project ([password cracking](https://github.com/michaelb/go-passwd-crack), [user simulation](https://github.com/michaelb/simple-user-simulation), SCADA/PLC system) in coordination with an international team.
 - Create reproducible VM and software setups for use by other teams.
 `
     }
   ],
   projects: [
     {
-      header: 'Performance',
-      skills: ['theater', 'play'],
+      header: 'Sniprun',
+      skills: ['Rust', 'Lua', 'Neovim plugin'],
+      link: 'https://github.com/michaelb/sniprun',
       contents: `
-Thousands of performances of my plays have been staged since the end of the 16th century. Many of my greatest plays were performed by the Lord Chamberlain's Men and King's Men acting companies at the [Globe](https://en.wikipedia.org/wiki/Globe_Theatre) and Blackfriars Theatres.
+[Sniprun](github.com/michaelb/sniprun) is my flagship open-source project. It allows users to run snippets of code directly from the editor (Neovim). In addition to the code itself, sniprun has a CI pipeline, a 'deployment' system, tests and coverage, extensive documentation, and showcases team & community work. 
 `
     },
     {
-      header: 'Poetry',
-      skills: ['poetry', 'erotic'],
+      header: 'Compiler (for a provided language)',
+      skills: ['Java', 'DevOps'],
       contents: `
-In 1593 and 1594, when the theatres were closed because of plague, I published two narrative poems on sexual themes, Venus and Adonis and The Rape of Lucrece. He dedicated them to Henry Wriothesley, Earl of Southampton.
+A team school project running for 1 month, to create a compiler written in Java, [to compile] from an arbitrary object-oriented langage to machine code and LLVM IR.
 `
-    }
+    },
+    {
+      header: '... and many others:',
+      skills:[],
+      contents:`
+- [shogai](github.com/michaelb/shogai) and [shogui](github.com/michaelb/shogui), a shogi library and GUI both in Rust
+- a surface reconstruction algorithm, in Python
+- hash crackers ([one](https://github.com/michaelb/go-passwd-crack) in PyQt/Go, another in C++/OpenCL/GPU)
+- a [youtube-dl wrapper](github.com/michaelb/auto-ytdl) for music, in Python
+- a generic [point clustering algorithm](https://github.com/michaelb/point-clustering), in Python
+- a [prime numbers generator](https://github.com/michaelb/simple_prime_generator), in C
+`
+    },
+
   ]
 };
