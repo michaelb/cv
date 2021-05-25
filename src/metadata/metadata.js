@@ -68,7 +68,7 @@ module.exports = {
       contents: `
 <ul>
 <li>Provide support to students and help them install and manage a Linux-based work environment.</li>
-<li> Take initiative to improve quality-of-life services such as documentation, installers and scripts, working with the support departement to integrate better with the school systems.</li>
+<li> Take initiatives to improve quality-of-life services such as documentation, installers and scripts, working with the support departement to integrate better with the school systems.</li>
 <li> Assist the support staff to perform maintenance and hardware upgrade tasks.</li>
 </ul>
 `
