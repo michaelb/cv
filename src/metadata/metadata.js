@@ -24,6 +24,7 @@ module.exports = {
     Linux: '<a href="https://www.linux.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a>',
     Arch: '<a href="https://archlinux.org" target="_blank"> <img src="https://www.vectorlogo.zone/logos/archlinux/archlinux-icon.svg" alt="archlinux" width="40" height="40"/> </a>',
     Github: '<a href="https://github.com" target="_blank"> <img src="https://www.vectorlogo.zone/logos/github/github-tile.svg" alt="github" width="40" height="40"/> </a>',
+    Actions: '<a href="https://github.com/features/actions" target="_blank"> <img src="https://simpleicons.org/icons/githubactions.svg" alt="travis-ci" width="40" height="40"/> </a>',
     Gitlab: '<a href="https://gitlab.com" target="_blank"> <img src="https://www.vectorlogo.zone/logos/gitlab/gitlab-icon.svg" alt="gitlab" width="40" height="40"/> </a>',
     Jupyter: '<a href="https://jupyter.org" target="_blank"> <img src="https://www.vectorlogo.zone/logos/jupyter/jupyter-icon.svg" alt="jupyter" width="40" height="40"/> </a>',
     KDE: '<a href="https://kde.org" target="_blank"> <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/master/icons/kde.svg" alt="kde" width="40" height="40"/></a>',
@@ -39,9 +40,8 @@ module.exports = {
     OpenGL: '<a href="https://opengl.org/" target="_blank"> <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/opengl.svg" alt="opengl" width="40" height="40"/> </a>',
     Android : '<a href="http://android.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/android/android-official.svg" alt="android" width="40" height="40"/> </a>',
     Qt: '<a href="http://www.qt.io/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/qtio/qtio-icon.svg" alt="qt" width="40" height="40"/> </a>',
-    TravisCI: '<a href="https://travis-ci.org/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/travis-ci/travis-ci-icon.svg" alt="travis-ci" width="40" height="40"/> </a>',
-    webmin: '<a href="https://www.webmin.com/" target="_blank"> <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/webmin.svg" alt="webmin" width="40" height="40"/> </a>',
-    Wireshark: '<a href="https://wireshark.org" target="_blank"> <img src="https://www.vectorlogo.zone/logos/wireshark/wireshark-icon.svg" alt="wireshark" width="40" height="40"/> </a>',
+    Element: '<a href="https://element.io/" target="_blank"> <img src="https://simpleicons.org/icons/element.svg" alt="webmin" width="40" height="40"/> </a>',
+    Wireshark: '<a href="https://wireshark.org" target="_blank"> <img src="https://simpleicons.org/icons/wireshark.svg" alt="wireshark" width="40" height="40"/> </a>',
     Windows: '<a href="https://www.microsoft.com/fr-fr/windows" target="_blank"> <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/windows.svg" alt="windows" width="40" height="40"/> </a>',
   },
   experience: [
@@ -89,32 +89,33 @@ module.exports = {
   ],
   projects: [
     {
-      header: '<a href="https://github.com/michaelb/sniprun" style="text-decoration:none !important; color:inherit;">Sniprun</a>',
+      header: '<a href="https://github.com/michaelb/sniprun" style="text-decoration:none !important; color:inherit;" target="_blank">Sniprun</a>',
       skills: ['Rust', 'Lua', 'Neovim plugin'],
       link: 'https://github.com/michaelb/sniprun',
       contents: `
-[Sniprun](https://github.com/michaelb/sniprun) is my flagship open-source project. It allows users to run snippets of code directly from the editor (Neovim). In addition to the code itself, sniprun has a CI pipeline, a 'deployment' system, tests and coverage, extensive documentation, and showcases team & community work. 
+<a href="https://github.com/michaelb/sniprun" style="text-decoration:underline !important; color:inherit;" target="_blank">Sniprun</a> is my flagship open-source project. It allows users to run snippets of code directly from the editor (Neovim). In addition to the code itself, sniprun has a CI pipeline, a 'deployment' system, tests and coverage, extensive documentation, and showcases team & community work. 
 `
     },
     {
       header: 'Compiler',
       skills: ['Java', 'DevOps'],
       contents: `
-A school team project running for 1 month, to create a compiler written in Java, used on an arbitrary object-oriented langage to generate machine code and LLVM IR.
+A 1 month long team assignment to create a compiler written in Java, used on an arbitrary object-oriented langage to generate machine code and LLVM IR.
 `
     },
     {
-      header: '<a href="https://github.com/michaelb/" style="text-decoration:none !important; color:inherit;">... and many others:</a>',
+      header: '<a href="https://github.com/michaelb?tab=repositories&q=&type=source&language=&sort=stargazers" target="_blank" style="text-decoration:none !important; color:inherit;">... and many others:</a>',
       skills:[],
       contents:`
-- [shogai](github.com/michaelb/shogai) and [shogui](github.com/michaelb/shogui), a shogi library and GUI both in Rust
-- a surface reconstruction algorithm, in Python
-- hash crackers ([one](https://github.com/michaelb/go-passwd-crack) in PyQt/Go, another in C++/OpenCL/GPU)
-- a [youtube-dl wrapper](github.com/michaelb/auto-ytdl) for music, in Python
-- a generic [point clustering algorithm](https://github.com/michaelb/point-clustering), in Python
-- a [prime numbers generator](https://github.com/michaelb/simple_prime_generator), in C
+<ul>
+<li> <a href="https://github.com/michaelb/shogai" target="_blank" style="text-decoration:underline !important; color:inherit;">shogai</a> and <a href="https://github.com/michaelb/shogui" target="_blank" style="text-decoration:underline !important; color:inherit;">shogui</a>, a shogi library and GUI both written in Rust </li>
+<li> a surface reconstruction algorithm, in Python </li>
+<li> hash crackers (<a href="https://github.com/michaelb/go-passwd-crack" target="_blank" style="text-decoration:underline !important; color:inherit;">one</a>  in PyQt/Go, another in C++/OpenCL/GPU) </li>
+<li> a  <a href="https://github.com/michaelb/auto-ytdl" target="_blank" style="text-decoration:underline !important; color:inherit;">youtube-dl</a> for music, in Python </li>
+<li> a generic   <a href="https://github.com/michaelb/point-clustering" target="_blank" style="text-decoration:underline !important; color:inherit;">point clustering algorithm</a> in Python </li>
+<li> a  <a href="https://github.com/michaelb/simple_prime_generator" target="_blank" style="text-decoration:underline !important; color:inherit;">prime numbers generator</a>, in C </li>
+</ul>
 `
     },
-
   ]
 };
