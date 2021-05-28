@@ -47,7 +47,7 @@ module.exports = {
   experience: [
     {
       title: 'End of studies internship',
-      place: 'Atos Bull R&D Data Management',
+      place: 'Atos R&D Data Management',
       link: 'https://atos.net/en/',
       date: 'Feb-Aug 2021',
       badges: ['C', 'HPC', 'IO'],
