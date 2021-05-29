@@ -44,23 +44,25 @@
         (ordered by decreasing proficiency)
     </p>
 
-    <div class="row mx-auto" style="white-space: pre;">
+    <div class="row mb-3" style="white-space:pre;display:flex; justify-content:space-around;">
         {{#each languages}}
-        <div class="col-print-1 col-1 col-md-1 col-lg-1 text-center">{{ @key }}</div>
+            <div class="col-sm-1 col-1" style="text-align:center">{{@key}} </div>
         {{/each}}
     </div>
-    <div class="row mx-auto mb-3">
+    <div class="row mb-5" style="display:flex; justify-content:space-around;">
             {{#each languages}}
-            <div class="col-print-1 col-1 col-md-1 col-lg-1 text-center">{{{ this }}}</div>
+                <div class="col-sm-1 col-1" style="text-align:center">{{{ this }}}</div>
             {{/each}}
     </div>
     <p>
         (and other tech I'm confortable with, unordered)
     </p>
-    <div class="row mx-9 mb-3">
+    <div class="container">
+        <div class="row">
             {{#each technology}}
-            <div class="col-print-1 col-1 col-md-1 mb-3 col-lg-1 text-center">{{{ this }}}</div>
+            <div class="col-md-1 col-2 mb-3">{{{ this }}}</div>
             {{/each}}
+        </div>
     </div>
 
 
