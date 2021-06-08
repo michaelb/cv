@@ -17,6 +17,7 @@ module.exports = {
     Bash: '<a href="https://www.gnu.org/software/bash/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/></a>',
     "C++": '<a href="https://www.cplusplus.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/9c6bfdb9783cdfe1018666ed76adcfd3eab6fad6/icons/cplusplus/cplusplus-plain.svg" alt="c++" width="40" height="40"/></a>',
     Lua: '<a href="https://www.lua.org" target="_blank"> <img src="https://www.vectorlogo.zone/logos/lua/lua-icon.svg" alt="lua" width="40" height="40"/></a>',
+    " ": " ",
   },
   technology: {
     Docker: '<a href="https://www.docker.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a>',
@@ -81,7 +82,7 @@ module.exports = {
       badges: ['virtualization', 'cybersecurity'],
       contents: `
 <ul>
-<li> Complete different, independent parts of a proof-of-concept cybersecurity project (<a href="https://github.com/michaelb/go-passwd-crack" style="text-decoration:underline !important;color:inherit;" >password cracking</a>, <a href="https://github.com/michaelb/simple-user-simulation" style="text-decoration:underline !important;color:inherit;">user simulation</a>, SCADA/PLC system) in coordination with an international team.</li>
+<li> Complete different, independent parts of a proof-of-concept cybersecurity project (<a href="https://github.com/michaelb/go-passwd-crack" style="text-decoration:underline !important;color:inherit;" >password cracking</a>, <a href="https://github.com/michaelb/simple-user-simulation" style="text-decoration:underline !important;color:inherit;">user simulation</a>, SCADA/PLC system) in coordination with an english-speaking, international team.</li>
 <li> Create reproducible VM and software setups.</li>
 </ul>
 `
