@@ -50,7 +50,7 @@ module.exports = {
       title: "Stage de fin d'études",
       place: 'Atos R&D Data Management',
       link: 'https://atos.net/en/',
-      date: 'Février-Août 2021',
+      date: '2021, 6 mois',
       badges: ['C', 'HPC', 'IO'],
       contents: `
 <ul>
@@ -61,7 +61,7 @@ module.exports = {
     },
     {
       title: 'Support Informatique (temps partiel)',
-      place:'Ensimag Grenoble-INP, Service Informatique',
+      place:'Ensimag Grenoble-INP',
       link: 'https://ensimag.grenoble-inp.fr/',
       date: '2018-2021',
       badges: ['Linux', 'IT support'],
