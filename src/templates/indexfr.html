@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ name }}. {{ title }}</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container page">
+    <div class="row">
+        <div class="col-md-6 col-print-6">
+            <h1>{{ name }}<br/><br/>{{ title }}</h1>
+            <p>
+                <time style="font-size:14px" datetime="{{ buildinfo.date }}" class="text-muted">Dernière mise à jour: {{ updated }}</time>
+            </p>
+            <p>
+            <span style="font-size:14px" class="screen">
+                <a href="{{ pdfFileNameFr }}">
+                    <i class="fa fa-file-pdf-o" aria-hidden="true">
+                    </i>
+                    Télécharger comme PDF
+                </a> -  
+                <a href="../index.html">
+                    English Version
+                    <img src="gb.svg" width='16'/>
+                </a>
+            </span>
+            <span style="font-size:14px" class="print">La version en ligne est disponible ici: <a href="{{ baseUrl }}/fr" class="text-nowrap">{{ baseUrl }}</a></span>
+            </p>
+        </div>
+       <div class="col-md-6 col-print-6">
+            <dl class="row" style="white-space: pre;">
+                {{#each facts}}
+                <!-- <dt class="col-4 col-md-5 text-md-right text-print-right font-weight-normal">{{@key}}:</dt> -->
+                <dd class="col-9 col-md-11 text-left">{{@key}}:   {{{this}}}</dd>
+                {{/each}}
+            </dl>
+        </div>
+    </div>
+    <p style="font-size:14px">
+        Bonjour !<br/>
+        Je suis un bricoleur passionné par l'informatique, la science et la high-tech.
+        Je passe le plus clair de mon temps libre à créer des nouvelles choses (plutôt côté logiciel) et réparer des anciennes choses (coté matériel), mais j'aime aussi beaucoup la musique et le babyfoot.
+    </p>
+    <h3> Langages de programmation & technologies</h3>
+    <div style="font-size:14px">
+        (Par ordre décroissant de familiarité)
+    </div>
+
+    <div class="row mb-1" style="white-space:pre;display:flex; justify-content:space-around;">
+        {{#each languages}}
+            <div class="col-sm-1 col-1" style="text-align:center"> {{@key}}</div>
+        {{/each}}
+    </div>
+    <div class="row mb-3" style="display:flex; justify-content:space-around;">
+            {{#each languages}}
+                <div class="col-sm-1 col-1" style="text-align:center">{{{ this }}}</div>
+            {{/each}}
+    </div>
+
+    <div style="font-size:14px"> Je suis aussi relativement à l'aise pour travailler avec: Linux, Git, Github/Gitlab, (neo)Vim, VirtualBox, Numpy, Docker, Qt, GIMP, et OpenGL.</div><br/>
+    <h3>Expérience professionnelle</h3>
+    {{#each experience}}
+    <div class="card mb-2 bg-light">
+        <div class="card-body">
+            <h4>{{ title }}</h4>
+            <p0 class="row" style="white-space:  pre;">
+                <p class="text-muted">     <a style="text-decoration:none! !important;color:inherit;" href="{{link}}">{{ place }} - {{ date }}</a>  </p>
+
+            </p0>
+            <div style="font-size:14px"> {{{ contents }}} </div>
+                <div >
+                {{#each badges }}
+                <span class="badge badge-primary">{{ this }}</span>
+                {{/each}}
+            </div>
+        </div>
+    </div>
+    {{/each}}
+
+    <h3>Education</h3>
+            <p>2021 - <b>Diplome d'ingénieur en informatique</b> -  <a style="text-decoration:underline !important;color:inherit" href="https://ensimag.grenoble-inp.fr/" alt="Ensimag Grenoble-INP" target="_blank">Ensimag Grenoble-INP</a><br></p>
+            <p> 2018 - <b>CPGE MPSI-MP</b> - Stanislas Cannes </p>
+
+            <p>Je suis français natif, parle anglais couramment (C1, TOEIC), et connais un peu d'espagnol.</p>
+    <h3>Projets</h3>
+
+    {{#each projects}}
+    <div class="card mt-1 bg-light">
+        <div class="card-body">
+            <div class="mb-1"><strong><h5>{{{ header }}}</h5></strong></div>
+
+            <div style="font-size:14px">{{{ contents }}}</div>
+
+            <div>
+                {{#each skills }}
+                <span class="badge badge-primary">{{ this }}</span>
+                {{/each}}
+            </div>
+        </div>
+    </div>
+    {{/each}}
+</div>
+</body>
+</html>
