@@ -27,8 +27,8 @@ const source = fs.readFileSync(srcDir + '/templates/index.html', 'utf-8');
 const sourcefr = fs.readFileSync(srcDir + '/templates/indexfr.html', 'utf-8');
 const template = handlebars.compile(source);
 const templatefr = handlebars.compile(sourcefr);
-const pdfFileName = `${getSlug(templateData.name)}.${getSlug(templateData.title)}.pdf`;
-const pdfFileNameFr = `/fr/${getSlug(templateDataFr.name)}.${getSlug(templateDataFr.title)}.pdf`;
+const pdfFileName = `${getSlug(templateData.name)}-${getSlug(templateData.title)}.pdf`;
+const pdfFileNameFr = `${getSlug(templateDataFr.name)}-${getSlug(templateDataFr.title)}.pdf`;
 const html = template({
   ...templateData,
   baseUrl: `https://${username()}.github.io/${repoName.sync()}`,
@@ -68,4 +68,4 @@ buildPdf = async function (inputFile, outputFile) {
 
 // Build PDF
 buildPdf(`${outputDir}/index.html`, `${outputDir}/${pdfFileName}`);
-buildPdf(`${outputDir}/fr/index.html`, `${outputDir}/${pdfFileNameFr}`);
+buildPdf(`${outputDir}/fr/index.html`, `${outputDirFr}/${pdfFileNameFr}`);
