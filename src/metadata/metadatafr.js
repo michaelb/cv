@@ -1,6 +1,6 @@
 module.exports = {
   name: 'Michael Bleuez',
-  title: 'Ingénieur en Informatique',
+  title: 'Ingénieur Informatique',
   baseUrl: 'https://michaelb.github.io/cv/fr',
   facts: {
     "Résidence": '<a href="https://www.google.com/maps/place/Grenoble/@45.1842207,5.6804372,13z/data=!4m5!3m4!1s0x478af48bd689be6f:0x618c10cd6e995398!8m2!3d45.188529!4d5.724524" target="_blank"><i class="fa fa-home"></i>Grenoble, France</a>',
