@@ -60,18 +60,23 @@
             {{#each languages}}
                 <div class="col-sm-1 col-1" style="text-align:center">{{{ this }}}</div>
             {{/each}}
-    </div>
+    </div> 
+
     <p>
-        (and other tech I'm confortable with, unordered)
+        (and other tech I'm confortable with at a professionnal level, unordered)
     </p>
-    <div class="container">
-        <div class="row">
+    <div class="row mb-3" style="white-space:pre;display:flex; justify-content:space-around;">
+        {{#each technology}}
+            <div class="col-sm-1 col-1" style="text-align:center"> {{@key}}</div>
+        {{/each}}
+    </div>
+    <div class="row mb-5" style="display:flex; justify-content:space-around;">
             {{#each technology}}
-            <div class="col-sm-1 col-2 mb-5">{{{ this }}}</div>
+                <div class="col-sm-1 col-1" style="text-align:center">{{{ this }}}</div>
             {{/each}}
-        </div>
     </div>
 
+   
 
     <h2>Professional Experience</h2>
     {{#each experience}}
