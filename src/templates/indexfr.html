@@ -55,16 +55,16 @@
 
     <div class="row mb-1" style="white-space:pre;display:flex; justify-content:space-around;">
         {{#each languages}}
-            <div class="col-sm-1 col-1" style="text-align:center"> {{@key}}</div>
+            <div class="col-sm-1 col-1" style="text-align:center;display:flex; justify-content:center;">{{@key}} </div>
         {{/each}}
     </div>
     <div class="row mb-3" style="display:flex; justify-content:space-around;">
             {{#each languages}}
-                <div class="col-sm-1 col-1" style="text-align:center">{{{ this }}}</div>
+                <div class="col-sm-1 col-1" style="text-align:center;display:flex;justify-content:center;">{{{ this }}}</div>
             {{/each}}
     </div>
 
-    <div style="font-size:14px"> Je suis aussi relativement à l'aise pour travailler à un niveau professionnel avec: Linux, Git, Github/Gitlab, VirtualBox, Docker, Ansible.. (non-exhaustif).</div><br/>
+    <div style="font-size:14px"> Je suis aussi relativement à l'aise pour travailler à un niveau professionnel avec: Linux, Git, Github/Gitlab, VirtualBox, Docker, Ansible, Phoronix Test Suite, Ansible, Slurm.. (non-exhaustif).</div><br/>
     <h3>Expérience professionnelle</h3>
     {{#each experience}}
     <div class="card mb-2 bg-light">
