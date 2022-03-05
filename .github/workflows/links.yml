@@ -11,6 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+        with:
+          repository: "gh-page"
 
       - name: Link Checker
         id: lychee
@@ -25,12 +27,3 @@ jobs:
           title: Link Checker Report
           content-filepath: ./lychee/out.md
           labels: report, automated issue
-
-      - name: Create Issue From File
-        uses: peter-evans/create-issue-from-file@v3
-        with:
-          title: An example issue
-          content-filepath: ./lychee/out.md
-          labels: |
-            report
-            automated issue
