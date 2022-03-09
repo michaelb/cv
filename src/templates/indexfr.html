@@ -89,12 +89,12 @@
 
 
                 <!-- medium-big devices -->
-    <div class="row mb-3 d-none d-md-block d-md-flex" style="white-space:pre;justify-content:space-around;">
+    <div class="row mb-1 d-none d-md-block d-md-flex" style="justify-content:space-around;">
         {{#each languages}}
-                <div class="col-1" style="text-align:center;display:flex;justify-content:center"> {{@key}} </div>
+                <div class="col-1" style="text-align:center;display:flex;justify-content:center">{{@key}}</div>
         {{/each}}
     </div>
-    <div class="row mb-5 d-none d-md-block d-md-flex" style="display:flex; justify-content:space-around;">
+    <div class="row mb-3 d-none d-md-block d-md-flex" style="display:flex; justify-content:space-around;">
             {{#each languages}}
                 <div class="col-1" style="text-align:center;display:flex;justify-content:center">{{{ this }}}</div>
             {{/each}}
