@@ -23,6 +23,12 @@ fs.copySync(srcDir + '/assets', outputDir);
 
 // Build HTML
 handlebars.registerHelper('markdown', markdownHelper);
+handlebars.registerHelper('ifbetween', function(v1, v2, v3, options) {
+  if(v1 >= v2 && v1 <= v3) {
+    return options.fn(this);
+  }
+  return options.inverse(this);
+});
 const source = fs.readFileSync(srcDir + '/templates/index.html', 'utf-8');
 const sourcefr = fs.readFileSync(srcDir + '/templates/indexfr.html', 'utf-8');
 const template = handlebars.compile(source);
