@@ -41,7 +41,7 @@ module.exports = {
       contents: `
 <ul>
 <li> Study the state-of-art of caching technology.</li>
-<li> Identify performance bottlenecks of an <a href="https://atos.net/en/2019/product-news_2019_02_07/atos-boosts-hpc-application-efficiency-new-flash-accelerator-solution" style="text-decoration:underline !important;color:inherit;">IO accelerator</a> used on HPC systems, and develop solutions to improve the global throughput of the product.</li>
+<li> Identify performance bottlenecks of an <a href="https://atos.net/en/2019/product-news_2019_02_07/atos-boosts-hpc-application-efficiency-new-flash-accelerator-solution" style="text-decoration:underline !important;color:inherit;">IO accelerator</a> used on HPC systems, and develop solutions to improve global throughput.</li>
 <li>Work with an Agile team.</li>
 </ul>
 `
@@ -66,7 +66,7 @@ module.exports = {
       place: 'RHEA Group (Redu, Belgium)',
       date: 'Jul-Aug 2019',
       link: 'https://www.rheagroup.com/',
-      badges: ['virtualization', 'cybersecurity'],
+      badges: ['Virtualization', 'Cybersecurity'],
       contents: `
 <ul>
 <li> Complete different, independent parts of a proof-of-concept cybersecurity project (<a href="https://github.com/michaelb/go-passwd-crack" style="text-decoration:underline !important;color:inherit;" >password cracking</a>, <a href="https://github.com/michaelb/simple-user-simulation" style="text-decoration:underline !important;color:inherit;">user simulation</a>, SCADA/PLC system) in coordination with an english-speaking, international team.</li>
@@ -81,7 +81,7 @@ module.exports = {
       skills: ['Rust', 'Lua', 'Neovim plugin'],
       link: 'https://github.com/michaelb/sniprun',
       contents: `
-<a href="https://github.com/michaelb/sniprun" style="text-decoration:underline !important; color:inherit;" target="_blank">Sniprun</a> is my flagship open-source project. It allows users to run snippets of code directly from the editor (Neovim). In addition to the code itself, sniprun has a CI pipeline, a 'deployment' system, tests and coverage, extensive documentation, and showcases team & community work. 
+<a href="https://github.com/michaelb/sniprun" style="text-decoration:underline !important; color:inherit;" target="_blank">Sniprun</a> is my flagship open-source project. It allows users to run snippets of code directly from the editor (Neovim). In addition to the code itself, sniprun has a CI pipeline, a 'deployment' system, atuomated tests, CD-managed HTML documentation, and showcases team & community work. 
 `
     },
     {
