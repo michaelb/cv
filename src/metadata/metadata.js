@@ -14,10 +14,10 @@ module.exports = {
     C: '<a href="https://www.cprogramming.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/></a>',
     Python: '<a href="https://www.python.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/></a>',
     Java: '<a href="https://www.java.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/></a>',
-    Go: '<a href="https://golang.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/9c6bfdb9783cdfe1018666ed76adcfd3eab6fad6/icons/go/go-original.svg" alt="go" width="40" height="40"/></a>',
     Bash: '<a href="https://www.gnu.org/software/bash/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/></a>',
-    "C++": '<a href="https://www.cplusplus.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/9c6bfdb9783cdfe1018666ed76adcfd3eab6fad6/icons/cplusplus/cplusplus-plain.svg" alt="c++" width="40" height="40"/></a>',
+    Go: '<a href="https://golang.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/9c6bfdb9783cdfe1018666ed76adcfd3eab6fad6/icons/go/go-original.svg" alt="go" width="40" height="40"/></a>',
     Lua: '<a href="https://www.lua.org" target="_blank"> <img src="https://www.vectorlogo.zone/logos/lua/lua-icon.svg" alt="lua" width="40" height="40"/></a>',
+    "C++": '<a href="https://www.cplusplus.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/9c6bfdb9783cdfe1018666ed76adcfd3eab6fad6/icons/cplusplus/cplusplus-plain.svg" alt="c++" width="40" height="40"/></a>',
     " ": " ",
   },
   technology: {
@@ -33,16 +33,16 @@ module.exports = {
   },
   experience: [
     {
-      title: 'End of studies internship',
+      title: 'Software Engineer',
       place: 'Atos R&D Data Management',
       link: 'https://atos.net/en/',
-      date: 'Feb-Aug 2021',
+      date: 'Feb 2021 - current (incl. 6-month internship)',
       badges: ['C', 'HPC', 'IO'],
       contents: `
 <ul>
-<li> Study the state-of-art of caching technology.</li>
-<li> Identify performance bottlenecks of an <a href="https://atos.net/en/2019/product-news_2019_02_07/atos-boosts-hpc-application-efficiency-new-flash-accelerator-solution" style="text-decoration:underline !important;color:inherit;">IO accelerator</a> used on HPC systems, and develop solutions to improve global throughput.</li>
-<li>Work with an Agile team.</li>
+<li> Study the state-of-art of data caching technology for HPC systems.</li>
+<li> Identify performance bottlenecks of an <a href="https://atos.net/en/2019/product-news_2019_02_07/atos-boosts-hpc-application-efficiency-new-flash-accelerator-solution" style="text-decoration:underline !important;color:inherit;">IO accelerator</a> used as a transparent cache, and develop solutions to improve global throughput.</li>
+<li> Submit proposals & develop new features, resolve bugs, improving not only the complex application core but also integration, compatibility and documentation as a member of an Agile team</li>
 </ul>
 `
     },
@@ -57,7 +57,6 @@ module.exports = {
 <ul>
 <li>Provide day-to-day support to students and help them install and manage a Linux-based work environment.</li>
 <li>Take initiatives to improve quality-of-life services such as documentation, installers and scripts.</li>
-<li>Work with the IT support staff to design future services, perform maintenance and upgrade hardware.</li>
 </ul>
 `
     },
