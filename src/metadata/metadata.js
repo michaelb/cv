@@ -36,7 +36,7 @@ module.exports = {
       title: 'Software Engineer',
       place: 'Atos R&D Data Management',
       link: 'https://atos.net/en/',
-      date: 'Feb 2021 - current (incl. 6-month internship)',
+      date: '2021 - now',
       badges: ['C', 'HPC', 'IO'],
       contents: `
 <ul>
