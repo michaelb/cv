@@ -48,7 +48,7 @@ module.exports = {
     },
     {
 
-      title: 'Part-time job',
+      title: 'IT support (part-time)',
       place:'IT support dept. Ensimag',
       link: 'https://ensimag.grenoble-inp.fr/',
       date: '2018-2021',
