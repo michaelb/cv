@@ -15,9 +15,8 @@ module.exports = {
     Python: '<a href="https://www.python.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/></a>',
     Java: '<a href="https://www.java.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/></a>',
     Bash: '<a href="https://www.gnu.org/software/bash/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/></a>',
-    Go: '<a href="https://golang.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/9c6bfdb9783cdfe1018666ed76adcfd3eab6fad6/icons/go/go-original.svg" alt="go" width="40" height="40"/></a>',
     Lua: '<a href="https://www.lua.org" target="_blank"> <img src="https://www.vectorlogo.zone/logos/lua/lua-icon.svg" alt="lua" width="40" height="40"/></a>',
-    "C++": '<a href="https://www.cplusplus.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/9c6bfdb9783cdfe1018666ed76adcfd3eab6fad6/icons/cplusplus/cplusplus-plain.svg" alt="c++" width="40" height="40"/></a>',
+    Go: '<a href="https://golang.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/9c6bfdb9783cdfe1018666ed76adcfd3eab6fad6/icons/go/go-original.svg" alt="go" width="40" height="40"/></a>',
     " ": " ",
   },
   technology: {
@@ -43,6 +42,8 @@ module.exports = {
 <li> Study the state-of-art of data caching technology for HPC systems.</li>
 <li> Identify performance bottlenecks of an <a href="https://atos.net/en/2019/product-news_2019_02_07/atos-boosts-hpc-application-efficiency-new-flash-accelerator-solution" style="text-decoration:underline !important;color:inherit;">IO accelerator</a> used as a transparent cache, and develop solutions to improve global throughput.</li>
 <li> Submit proposals & develop new features, resolve bugs, improving not only the complex application core but also integration, compatibility and documentation as a member of an Agile team</li>
+<li>Create from scratch a HPC application library and testing framework (based on the Phoronix Test Suite) to evaluate the team's products in 'production' conditions</li>
+<li>Oversee an internship intended to analyze a particular HPC application</li>
 </ul>
 `
     },
@@ -80,7 +81,7 @@ module.exports = {
       skills: ['Rust', 'Lua', 'Neovim plugin'],
       link: 'https://github.com/michaelb/sniprun',
       contents: `
-<a href="https://github.com/michaelb/sniprun" style="text-decoration:underline !important; color:inherit;" target="_blank">Sniprun</a> is my flagship open-source project. It allows users to run snippets of code directly from the editor (Neovim). In addition to the code itself, sniprun has a CI pipeline, a 'deployment' system, atuomated tests, CD-managed HTML documentation, and showcases team & community work. 
+<a href="https://github.com/michaelb/sniprun" style="text-decoration:underline !important; color:inherit;" target="_blank">Sniprun</a> is my flagship open-source project. It allows users to run snippets of code directly from the editor (Neovim). In addition to the code itself, sniprun has a CI pipeline, a 'deployment' system, automated tests, CD-managed HTML documentation, and showcases team & community work. 
 `
     },
     {
@@ -98,9 +99,7 @@ A one-month long team assignment to create a compiler written in Java, used on a
 <li> <a href="https://github.com/michaelb/shogai" target="_blank" style="text-decoration:underline !important; color:inherit;">shogai</a> and <a href="https://github.com/michaelb/shogui" target="_blank" style="text-decoration:underline !important; color:inherit;">shogui</a>, a shogi library and GUI both written in Rust </li>
 <li> a surface reconstruction algorithm, in Python </li>
 <li> hash crackers (<a href="https://github.com/michaelb/go-passwd-crack" target="_blank" style="text-decoration:underline !important; color:inherit;">one</a>  in PyQt/Go, another in C++/OpenCL/GPU) </li>
-<li> a  <a href="https://github.com/michaelb/auto-ytdl" target="_blank" style="text-decoration:underline !important; color:inherit;">youtube-dl</a> wrapper for music, in Python </li>
 <li> a generic   <a href="https://github.com/michaelb/point-clustering" target="_blank" style="text-decoration:underline !important; color:inherit;">point clustering algorithm</a> in Python </li>
-<li> a  <a href="https://github.com/michaelb/simple_prime_generator" target="_blank" style="text-decoration:underline !important; color:inherit;">prime numbers generator</a>, in C </li>
 </ul>
 `
     },

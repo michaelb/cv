@@ -15,9 +15,8 @@ module.exports = {
     Python: '<a href="https://www.python.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/></a>',
     Java: '<a href="https://www.java.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/></a>',
     Bash: '<a href="https://www.gnu.org/software/bash/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/></a>',
-    Go: '<a href="https://golang.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/9c6bfdb9783cdfe1018666ed76adcfd3eab6fad6/icons/go/go-original.svg" alt="go" width="40" height="40"/></a>',
     Lua: '<a href="https://www.lua.org" target="_blank"> <img src="https://www.vectorlogo.zone/logos/lua/lua-icon.svg" alt="lua" width="40" height="40"/></a>',
-    "C++": '<a href="https://www.cplusplus.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/9c6bfdb9783cdfe1018666ed76adcfd3eab6fad6/icons/cplusplus/cplusplus-plain.svg" alt="c++" width="40" height="40"/></a>',
+    Go: '<a href="https://golang.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/9c6bfdb9783cdfe1018666ed76adcfd3eab6fad6/icons/go/go-original.svg" alt="go" width="40" height="40"/></a>',
     " ": " ",
   },
   technology: {
@@ -55,8 +54,10 @@ module.exports = {
       badges: ['C', 'HPC', 'IO'],
       contents: `
 <ul>
-<li> Identification des problèmes de performance d'un <a href="https://atos.net/en/2019/product-news_2019_02_07/atos-boosts-hpc-application-efficiency-new-flash-accelerator-solution" style="text-decoration:underline !important;color:inherit;">accélérateur IO</a> utilisé par des environements HPC, et développement d'une solution qui résoud lesdits problèmes.</li>
+<li> Identifier des problèmes de performance d'un <a href="https://atos.net/en/2019/product-news_2019_02_07/atos-boosts-hpc-application-efficiency-new-flash-accelerator-solution" style="text-decoration:underline !important;color:inherit;">accélérateur IO</a> utilisé par des environements HPC, et développement d'une solution qui résoud lesdits problèmes.</li>
 <li> Soumettre de nouvelles fonctionnalités et les développer, résoudre des bugs et améliorer le produit dans des aspects non seulement techniques mais aussi d'intégration, de compatibilité et de documentation, en tant que membre d'une équipe Agile</li>
+<li>Créer (à partir de la suite de test Phoronix) une librairie d'applications HPC pour tester et évaluer les produits de l'équipe dans des conditions réelles</li>
+<li>Encadrer un stage de recherche centré autour d'une application HPC particulière</li>
 </ul>
 `
     },
@@ -80,7 +81,7 @@ module.exports = {
       skills: ['Rust', 'Lua', 'DevOps'],
       link: 'https://github.com/michaelb/sniprun',
       contents: `
-<a href="https://github.com/michaelb/sniprun" style="text-decoration:underline !important; color:inherit;" target="_blank">Sniprun</a>, un plugin pour neovim, est mon plus 'grand' projet open-source. En plus de la fonctionnalité intéressante en elle-même (exécuter du code depuis l'éditeur), sniprun possède une pipeline d'intégration continue assez avancée et témoigne d'aspects de gestion de projet & communauté.
+<a href="https://github.com/michaelb/sniprun" style="text-decoration:underline !important; color:inherit;" target="_blank">Sniprun</a>, un plugin pour <a href="https://neovim.io/" style="text-decoration:underline !important; color:inherit;" target="_blank">Neovim</a>,, est mon plus 'grand' projet open-source. En plus de la fonctionnalité intéressante en elle-même (exécuter du code depuis l'éditeur), sniprun possède une pipeline d'intégration continue assez avancée et témoigne d'aspects de gestion de projet & communauté.
 `
     },
   {
