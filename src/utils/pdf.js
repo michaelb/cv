@@ -1,13 +1,10 @@
-const fs = require('fs');
-const pdf = require('html-pdf');
-
 const Puppeteer = require('puppeteer');
 
 module.exports = async function buildPdf(inputFile, outputFile) {
-  const browser = await Puppeteer.launch();
+  const browser = await Puppeteer.launch({headless:true});
   const page = await browser.newPage();
   await page.goto(`file://${inputFile}`, {
-        waitUntil: 'networkidle0'
+    waitUntil: 'networkidle0'
   });
   await page.pdf({
     path: outputFile,
@@ -22,4 +19,3 @@ module.exports = async function buildPdf(inputFile, outputFile) {
   });
   await browser.close();
 };
-
