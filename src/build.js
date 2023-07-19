@@ -3,8 +3,8 @@ const fs = require('fs-extra');
 const markdownHelper = require('./utils/helpers/markdown');
 const templateData = require('./metadata/metadata');
 const templateDataFr = require('./metadata/metadatafr');
-const Puppeteer = require('puppeteer');
 const getSlug = require('speakingurl');
+const buildPdf = require('./utils/pdf.js');
 const dayjs = require('dayjs');
 const repoName = require('git-repo-name');
 const username = require('git-username');
@@ -52,26 +52,8 @@ const htmlfr = templatefr({
 fs.writeFileSync(outputDir + '/index.html', html);
 fs.writeFileSync(outputDir + '/fr/index.html', htmlfr);
 
-buildPdf = async function (inputFile, outputFile) {
-  const browser = await Puppeteer.launch();
-  const page = await browser.newPage();
-  await page.goto(`file://${inputFile}`, {
-    waitUntil: 'networkidle0'
-  });
-  await page.pdf({
-    path: outputFile,
-    format: 'A4',
-    border: 0,
-    margin: {
-      top: '2.54cm',
-      right: '2.54cm',
-      bottom: '2.54cm',
-      left: '2.54cm',
-    },
-  });
-  await browser.close();
-};
 
 // Build PDF
 buildPdf(`${outputDir}/index.html`, `${outputDir}/${pdfFileName}`);
 buildPdf(`${outputDir}/fr/index.html`, `${outputDirFr}/${pdfFileNameFr}`);
+console.log("done");
