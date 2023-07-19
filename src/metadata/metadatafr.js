@@ -56,7 +56,6 @@ module.exports = {
 <ul>
 <li> Identifier des problèmes de performance d'un <a href="https://atos.net/en/2019/product-news_2019_02_07/atos-boosts-hpc-application-efficiency-new-flash-accelerator-solution" style="text-decoration:underline !important;color:inherit;">accélérateur IO</a> utilisé par des environements HPC, et développement d'une solution qui résoud lesdits problèmes.</li>
 <li> Soumettre de nouvelles fonctionnalités et les développer, résoudre des bugs et améliorer le produit dans des aspects non seulement techniques mais aussi d'intégration, de compatibilité et de documentation, en tant que membre d'une équipe Agile</li>
-<li>Créer (à partir de la suite de test Phoronix) une librairie d'applications HPC pour tester et évaluer les produits de l'équipe dans des conditions réelles</li>
 <li>Encadrer un stage de recherche centré autour d'une application HPC particulière</li>
 </ul>
 `
