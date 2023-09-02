@@ -7,7 +7,7 @@ module.exports = {
     "   LinkedIn": ' <a href="https://www.linkedin.com/in/michael-bleuez-b2b737190/" target="_blank"><i class="fa fa-linkedin"></i>michael bleuez</a>',
     "      GitHub": ' <a href="https://github.com/michaelb" target="_blank"><i class="fa fa-github"></i>michaelb</a>',
     "    Website": ' <a href="http://michaelb.github.io" target="_blank"><i class="fa fa-globe"></i>michaelb.github.io</a>',
-    "         Email": ' <a href="mailto:michael.bleuez2@gmail.com" target="_blank"><i class="fa fa-envelope"></i>michael.bleuez2@gmail.com</a>',
+    "       Email": ' <a href="mailto:michael.bleuez2@gmail.com" target="_blank"><i class="fa fa-envelope"></i>michael.bleuez2@gmail.com</a>',
   },
   languages: {
     Rust: '<a href="https://www.rust-lang.org" target="_blank"><img src="https://www.vectorlogo.zone/logos/rust-lang/rust-lang-icon.svg" alt="rust" width="40" height="40"><img/></a>',
