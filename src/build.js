@@ -6,8 +6,8 @@ const templateDataFr = require('./metadata/metadatafr');
 const getSlug = require('speakingurl');
 const buildPdf = require('./utils/pdf.js');
 const dayjs = require('dayjs');
-const repoName = require('git-repo-name');
-const username = require('git-username');
+// const repoName = require('git-repo-name');
+// const username = require('git-username');
 
 const srcDir = __dirname;
 const outputDir = __dirname + '/../dist';
@@ -37,14 +37,14 @@ const pdfFileName = `${getSlug(templateData.name)}-${getSlug(templateData.title)
 const pdfFileNameFr = `${getSlug(templateDataFr.name)}-${getSlug(templateDataFr.title)}.pdf`;
 const html = template({
   ...templateData,
-  baseUrl: `https://${username()}.github.io/${repoName.sync()}`,
+  baseUrl: `https://michaelb.github.io/cv`,
   pdfFileName,
   updated: dayjs().format('MMMM D, YYYY'),
 });
 
 const htmlfr = templatefr({
   ...templateDataFr,
-  baseUrl: `https://${username()}.github.io/${repoName.sync()}/fr`,
+  baseUrl: `https://michaelb.github.io/cv/fr`,
   pdfFileNameFr,
   updated: dayjs().format('D/MM/YYYY'),
 });
