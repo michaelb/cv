@@ -1,6 +1,6 @@
 module.exports = {
   name: 'Michael Bleuez',
-  title: 'Rust Software Engineer',
+  title: 'Software Engineer',
   baseUrl: 'https://michaelb.github.io/cv/',
   facts: {
     "Residence": '<a href="https://www.google.com/maps/place/Grenoble/@45.1842207,5.6804372,13z/data=!4m5!3m4!1s0x478af48bd689be6f:0x618c10cd6e995398!8m2!3d45.188529!4d5.724524" target="_blank"><i class="fa fa-home"></i>Grenoble, France</a>',
@@ -27,6 +27,7 @@ module.exports = {
     Ansible: '<a href="https://www.ansible.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/ansible/ansible-icon.svg" alt="docker" width="40" height="40"/> </a>',
     Phoronix: '<a href=# target="_blank"><img src="https://logo-download.com/wp-content/data/images/svg/Phoronix-Test-Suite-logo.svg" alt="phoronix" width="50" height="40"/></a>',
     Slurm: '<a href="https://slurm.schedmd.com/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Slurm_logo.svg" alt="slurm" width="40" height="40"></a>', 
+    " ": " ",
     
   },
   experience: [
