@@ -22,8 +22,7 @@ module.exports = {
   technology: {
     Git: '<a href="https://git-scm.com/" target="_blank"><img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/></a>',
     Linux: '<a href="https://www.linux.org/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/></a>',
-    Github: '<a href="https://github.com" target="_blank"> <img src="https://www.vectorlogo.zone/logos/github/github-tile.svg" alt="github" width="40" height="40"/> </a>',
-    Gitlab: '<a href="https://gitlab.com" target="_blank"> <img src="https://www.vectorlogo.zone/logos/gitlab/gitlab-icon.svg" alt="gitlab" width="40" height="40"/> </a>',
+    'Github/Actions': '<a href="https://github.com" target="_blank"> <img src="https://www.vectorlogo.zone/logos/github/github-tile.svg" alt="github" width="40" height="40"/> </a>',
     Docker: '<a href="https://www.docker.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a>',
     Ansible: '<a href="https://www.ansible.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/ansible/ansible-icon.svg" alt="docker" width="40" height="40"/> </a>',
     Phoronix: '<a href=# target="_blank"><img src="https://logo-download.com/wp-content/data/images/svg/Phoronix-Test-Suite-logo.svg" alt="phoronix" width="50" height="40"/></a>',
