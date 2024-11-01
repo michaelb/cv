@@ -46,16 +46,30 @@ module.exports = {
   },
   experience: [
     {
-      title: "Ingénieur en informatique",
+      title: "Ingénieur R&D",
+      place: 'ProvenRun',
+      link: 'https://provenrun.com',
+      date: '2023 - now',
+      badges: ['Rust', 'C', 'embedded'],
+      contents: `
+<ul>
+<li>Développer des fonctionnalités et bugfixes pour des applications tournant sur un OS sécurisé: <a href="https://provenrun.com/provencore/" style="text-decoration:underline !important;color:inherit;">provencore</a></li>
+<li>Adapter provencore à une nouvelle plateforme matérielle</li>
+<li>Productiser le support de Rust comme language de développement des applications sécurisées</li>
+</ul>
+`
+    },
+    {
+      title: "Ingénieur Informatique",
       place: 'Atos R&D Data Management',
       link: 'https://atos.net/en/',
-      date: 'Février 2021 - aujourd\'hui (dont 6 mois de stage)',
+      date: '2021 - 2023 (dont 6 mois de stage)',
       badges: ['C', 'HPC', 'IO'],
       contents: `
 <ul>
 <li> Identifier des problèmes de performance d'un <a href="https://atos.net/en/2019/product-news_2019_02_07/atos-boosts-hpc-application-efficiency-new-flash-accelerator-solution" style="text-decoration:underline !important;color:inherit;">accélérateur IO</a> utilisé par des environements HPC, et développement de solutions.</li>
-<li> Soumettre de nouvelles fonctionnalités et les développer, résoudre des bugs et améliorer le produit dans des aspects non seulement techniques mais aussi d'intégration, de compatibilité et de documentation, en tant que membre d'une équipe Agile</li>
-<li>Encadrer un stage de recherche centré autour d'une application HPC particulière</li>
+<li> Développer des fonctionnalités non seulement techniques mais aussi d'intégration et de documentation, au sein d'une équipe Agile</li>
+<li>Encadrer un stage de recherche centré autour d'une application HPC particulière : <a href="https://hal.science/hal-02611036v2" style="text-decoration:underline !important;color:inherit;">DDFacet (for the SKA project)</a> </li>
 </ul>
 `
     },

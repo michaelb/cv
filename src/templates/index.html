@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ name }}. {{ title }}</title>
+    <title>{{ name }} {{ title }}</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -25,7 +25,7 @@
                         <img src="fr.svg" width='16'>
                     </a>
                 </span>
-                <span class="print">Online version: <a href="{{ baseUrl }}" class="text-nowrap"><i class="fa fa-github" aria-hidden="true"></i>{{ baseUrl }}</a></span>
+                <span class="print">Online version: 🌐 <a href="{{ baseUrl }}" class="text-nowrap">{{ baseUrl }}</a></span>
             </p>
         </div>
        <div class="col-md-6 col-print-6">
@@ -156,7 +156,7 @@
         <div class="card-body">
             <h3>{{ title }}</h3>
             <p0 class="row" style="white-space:  pre;">
-                <p class="text-muted">     <a style="text-decoration:none! !important;color:inherit;" href="{{link}}">{{ place }} - {{ date }}</a>  </p>
+                <p class="text-muted">     <a style="text-decoration:none! !important;color:inherit;" href="{{link}}">{{ place }} | {{ date }}</a>  </p>
 
             </p0>
             {{{ contents }}}
@@ -174,7 +174,7 @@
             <p>2019 - <b>Bachelor degree</b> - <a style="text-decoration:underline !important;color:inherit" href="https://ensimag.grenoble-inp.fr/" alt="Ensimag" target="_blank">Ensimag Grenoble-INP</a></p>
 
             <p>Additionally, I'm a French native, fluent English speaker (full-score TOEIC), and know the tiniest bit of Spanish.</p>
-    <h2>Projects</h2>
+    <h2>Open-Source Projects</h2>
 
     {{#each projects}}
     <div class="card mt-4 bg-light">

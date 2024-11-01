@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ name }}. {{ title }}</title>
+    <title>{{ name }} {{ title }}</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -29,7 +29,7 @@
                     <img src="gb.svg" width='16'/>
                 </a>
             </span>
-            <span style="font-size:14px" class="print">Version en ligne: <a href="{{ baseUrl }}" class="text-nowrap">{{ baseUrl }}</a></span>
+            <span style="font-size:14px" class="print">Version en ligne: 🌐 <a href="{{ baseUrl }}" class="text-nowrap">{{ baseUrl }}</a></span>
             </p>
         </div>
        <div class="col-md-6 col-print-6">
@@ -42,7 +42,6 @@
         </div>
     </div>
     <p style="font-size:14px">
-        Bonjour ! 
         Je suis un bricoleur passionné par l'informatique, la science et la high-tech.
         Je passe le plus clair de mon temps libre à créer des nouvelles choses (plutôt côté logiciel) et réparer des anciennes choses (coté matériel), mais j'aime aussi beaucoup la musique et le babyfoot. Je self-hoste mon propre serveur !
     </p>
@@ -119,11 +118,10 @@
     {{#each experience}}
     <div class="card mb-2 bg-light">
         <div class="card-body">
-            <h4>{{ title }}</h4>
-            <p0 class="row" style="white-space:  pre;">
-                <p class="text-muted">     <a style="text-decoration:none! !important;color:inherit;" href="{{link}}">{{ place }} - {{ date }}</a>  </p>
+                    <h4>{{ title }} <small><small class="text-muted", style="white-space:  pre;"> @ <a style="text-decoration:none! !important;color:inherit;" href="{{link}}">{{ place }} | {{ date }}</a>  </small> </small>
 
-            </p0>
+            </h4>
+
             <div style="font-size:14px"> {{{ contents }}} </div>
                 <div >
                 {{#each badges }}
@@ -139,7 +137,7 @@
             <p> 2018 - <b>CPGE MPSI-MP</b> - Stanislas Cannes </p>
 
             <p>Je suis français natif, parle anglais couramment (C1, TOEIC), et connais un peu d'espagnol.</p>
-    <h3>Projets</h3>
+    <h3>Projets Open-Source</h3>
 
     {{#each projects}}
     <div class="card mt-1 bg-light">

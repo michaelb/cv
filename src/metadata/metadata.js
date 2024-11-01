@@ -31,16 +31,30 @@ module.exports = {
   },
   experience: [
     {
-      title: 'Software Engineer',
+      title: 'R&D Software Engineer',
+      place: 'ProvenRun',
+      link: 'https://provenrun.com/',
+      date: '2024 - now',
+      badges: ['Rust', 'C', 'embedded'],
+      contents: `
+<ul>
+<li>Develop features and bugfixes for applications running in a Secure OS: <a href="https://provenrun.com/provencore/" style="text-decoration:underline !important;color:inherit;">provencore</a></li>
+<li>Port provencore onto a new platform/board</li>
+<li>Improve the Rust support for provencore applications into a full-fledged SDK</li>
+</ul>
+`
+    },
+    {
+      title: 'R&D Software Engineer',
       place: 'Atos R&D Data Management',
       link: 'https://atos.net/en/',
-      date: '2021 - now',
+      date: '2021 - 2023, incl. 6 month internship',
       badges: ['C', 'HPC', 'IO'],
       contents: `
 <ul>
-<li> Study the state-of-art of data caching technology for HPC systems.</li>
-<li> Identify performance bottlenecks of an <a href="https://atos.net/en/2019/product-news_2019_02_07/atos-boosts-hpc-application-efficiency-new-flash-accelerator-solution" style="text-decoration:underline !important;color:inherit;">IO accelerator</a> used as a transparent cache, and develop solutions to improve global throughput.</li>
-<li> Submit proposals & develop new features, resolve bugs, improving not only the complex application core but also integration, compatibility and documentation as a member of an Agile team</li>
+<li> Study the state-of-art of data caching technology for HPC systems</li>
+<li> Identify performance bottlenecks of an <a href="https://atos.net/en/2019/product-news_2019_02_07/atos-boosts-hpc-application-efficiency-new-flash-accelerator-solution" style="text-decoration:underline !important;color:inherit;">IO accelerator</a> used as a transparent cache, and develop solutions to improve global throughput</li>
+<li> Submit proposals & develop new features, resolve bugs, improving not only the complex application core but also integration, compatibility and documentation as a member of an agile team</li>
 <li>Create from scratch a HPC application library and testing framework (based on the Phoronix Test Suite) to evaluate the team's products in 'production' conditions</li>
 <li>Oversee an internship intended to analyze a particular HPC application</li>
 </ul>
@@ -55,8 +69,8 @@ module.exports = {
       badges: ['Linux', 'IT support'],
       contents: `
 <ul>
-<li>Provide day-to-day support to students and help them install and manage a Linux-based work environment.</li>
-<li>Take initiatives to improve quality-of-life services such as documentation, installers and scripts.</li>
+<li>Provide day-to-day support to students and help them install and manage a Linux-based work environment</li>
+<li>Take initiatives to improve quality-of-life services such as documentation, installers and scripts</li>
 </ul>
 `
     },
@@ -68,7 +82,7 @@ module.exports = {
       badges: ['Virtualization', 'Cybersecurity'],
       contents: `
 <ul>
-<li> Complete different, independent parts of a proof-of-concept cybersecurity project (<a href="https://github.com/michaelb/go-passwd-crack" style="text-decoration:underline !important;color:inherit;" >password cracking</a>, <a href="https://github.com/michaelb/simple-user-simulation" style="text-decoration:underline !important;color:inherit;">user simulation</a>, SCADA/PLC system) in coordination with an english-speaking, international team.</li>
+<li> Complete different, independent parts of a proof-of-concept cybersecurity project (<a href="https://github.com/michaelb/go-passwd-crack" style="text-decoration:underline !important;color:inherit;" >password cracking</a>, <a href="https://github.com/michaelb/simple-user-simulation" style="text-decoration:underline !important;color:inherit;">user simulation</a>, SCADA/PLC system) in coordination with an english-speaking, international team</li>
 <li> Create reproducible VM and software setups.</li>
 </ul>
 `
@@ -84,13 +98,6 @@ module.exports = {
 `
     },
     {
-      header: 'Compiler',
-      skills: ['Java', 'DevOps'],
-      contents: `
-A one-month long team assignment to create a compiler written in Java, used on an arbitrary object-oriented langage to generate machine code and LLVM IR.
-`
-    },
-    {
       header: '<a href="https://github.com/michaelb?tab=repositories&q=&type=source&language=&sort=stargazers" target="_blank" style="text-decoration:none !important; color:inherit;">... and many others:</a>',
       skills:[],
       contents:`
@@ -98,7 +105,6 @@ A one-month long team assignment to create a compiler written in Java, used on a
 <li> <a href="https://github.com/michaelb/shogai" target="_blank" style="text-decoration:underline !important; color:inherit;">shogai</a> and <a href="https://github.com/michaelb/shogui" target="_blank" style="text-decoration:underline !important; color:inherit;">shogui</a>, a shogi library and GUI both written in Rust </li>
 <li> a surface reconstruction algorithm, in Python </li>
 <li> hash crackers (<a href="https://github.com/michaelb/go-passwd-crack" target="_blank" style="text-decoration:underline !important; color:inherit;">one</a>  in PyQt/Go, another in C++/OpenCL/GPU) </li>
-<li> a generic   <a href="https://github.com/michaelb/point-clustering" target="_blank" style="text-decoration:underline !important; color:inherit;">point clustering algorithm</a> in Python </li>
 </ul>
 `
     },
