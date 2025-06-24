@@ -67,7 +67,7 @@ module.exports = {
 <ul>
 <li> Identifier des problèmes de performance d'un <a href="https://atos.net/en/2019/product-news_2019_02_07/atos-boosts-hpc-application-efficiency-new-flash-accelerator-solution" style="text-decoration:underline !important;color:inherit;">accélérateur IO</a> utilisé par des environements HPC, et développement de solutions.</li>
 <li> Développer des fonctionnalités non seulement techniques mais aussi d'intégration et de documentation, au sein d'une équipe Agile</li>
-<li>Encadrer un stage de recherche centré autour d'une application HPC particulière : <a href="https://hal.science/hal-02611036v2" style="text-decoration:underline !important;color:inherit;">DDFacet (for the SKA project)</a> </li>
+<li>Encadrer un stage de recherche centré autour d'une application HPC particulière : <a href="https://hal.science/hal-02611036v2" style="text-decoration:underline !important;color:inherit;">DDFacet (projet SKA)</a> </li>
 </ul>
 `
     },
