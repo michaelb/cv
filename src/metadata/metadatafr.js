@@ -98,7 +98,7 @@ module.exports = {
       header: '<a href="https://github.com/michaelb?tab=repositories&q=&type=source&language=&sort=stargazers" target="_blank" style="text-decoration:none !important; color:inherit;">... et bien d\'autres que vous pouvez trouver sur mon profil:</a>',
       skills:[],
       contents:`
-Librairie et interface graphique pour du shogi (<a href="https://github.com/michaelb/shogai" target="_blank" style="text-decoration:underline !important; color:inherit;">shogai</a> and <a href="https://github.com/michaelb/shogui" target="_blank" style="text-decoration:underline !important; color:inherit;">shogui</a>), un compilateur, un algorithme de reconstruction de surfaces, <a href="https://github.com/michaelb/go-passwd-crack" target="_blank" style="text-decoration:underline !important; color:inherit;"> un hash-cracker</a>...`
+Librairie et interface graphique pour du shogi (<a href="https://github.com/michaelb/shogai" target="_blank" style="text-decoration:underline !important; color:inherit;">shogai</a> and <a href="https://github.com/michaelb/shogui" target="_blank" style="text-decoration:underline !important; color:inherit;">shogui</a>), un algorithme de reconstruction de surfaces...`
     },
 
    ]
