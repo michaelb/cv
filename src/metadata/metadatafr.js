@@ -36,7 +36,7 @@ module.exports = {
     Markdown: '<a href="https://en.wikipedia.org/wiki/Markdown" target="_blank"> <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/markdown.svg" alt="markdown" width="40" height="40"/> </a>',
     Vim: '<a href="https://www.vim.org" target="_blank"> <img src="https://www.vectorlogo.zone/logos/vim/vim-icon.svg" alt="vim" width="40" height="40"/> </a>',
     OpenGL: '<a href="https://opengl.org/" target="_blank"> <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/opengl.svg" alt="opengl" width="40" height="40"/> </a>',
-    Android : '<a href="http://android.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/android/android-official.svg" alt="android" width="40" height="40"/> </a>',
+    Android: '<a href="http://android.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/android/android-official.svg" alt="android" width="40" height="40"/> </a>',
     Qt: '<a href="http://www.qt.io/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/qtio/qtio-icon.svg" alt="qt" width="40" height="40"/> </a>',
     Element: '<a href="https://element.io/" target="_blank"> <img src="https://simpleicons.org/icons/element.svg" alt="webmin" width="40" height="40"/> </a>',
     Wireshark: '<a href="https://wireshark.org" target="_blank"> <img src="https://simpleicons.org/icons/wireshark.svg" alt="wireshark" width="40" height="40"/> </a>',
@@ -73,7 +73,7 @@ module.exports = {
     },
     {
       title: 'Support Informatique (temps partiel)',
-      place:'Ensimag Grenoble-INP',
+      place: 'Ensimag Grenoble-INP',
       link: 'https://ensimag.grenoble-inp.fr/',
       date: '2018-2021',
       badges: ['Linux', 'IT support'],
@@ -91,15 +91,15 @@ module.exports = {
       skills: ['Rust', 'Lua', 'DevOps'],
       link: 'https://github.com/michaelb/sniprun',
       contents: `
-<a href="https://github.com/michaelb/sniprun" style="text-decoration:underline !important; color:inherit;" target="_blank">Sniprun</a>, un plugin pour <a href="https://neovim.io/" style="text-decoration:underline !important; color:inherit;" target="_blank">Neovim</a>,, est mon plus 'grand' projet open-source. En plus de la fonctionnalité intéressante en elle-même (exécuter du code depuis l'éditeur), sniprun possède une pipeline d'intégration continue assez avancée et témoigne d'aspects de gestion de projet & communauté.
+<a href="https://github.com/michaelb/sniprun" style="text-decoration:underline !important; color:inherit;" target="_blank">Sniprun</a>, un plugin pour <a href="https://neovim.io/" style="text-decoration:underline !important; color:inherit;" target="_blank">Neovim</a>, est mon plus 'grand' projet open-source. Au-delà de la fonctionalité elle-même, Sniprun possède une pipeline d'intégration continue assez avancée et témoigne d'aspects de gestion de projet & communauté.
 `
     },
-  {
+    {
       header: '<a href="https://github.com/michaelb?tab=repositories&q=&type=source&language=&sort=stargazers" target="_blank" style="text-decoration:none !important; color:inherit;">... et bien d\'autres que vous pouvez trouver sur mon profil:</a>',
-      skills:[],
-      contents:`
+      skills: [],
+      contents: `
 Librairie et interface graphique pour du shogi (<a href="https://github.com/michaelb/shogai" target="_blank" style="text-decoration:underline !important; color:inherit;">shogai</a> and <a href="https://github.com/michaelb/shogui" target="_blank" style="text-decoration:underline !important; color:inherit;">shogui</a>), un algorithme de reconstruction de surfaces...`
     },
 
-   ]
+  ]
 };
