@@ -22,10 +22,10 @@ module.exports = {
     'Github/Actions': '<a href="https://github.com" target="_blank"> <img src="https://www.vectorlogo.zone/logos/github/github-tile.svg" alt="github" width="40" height="40"/> </a>',
     Docker: '<a href="https://www.docker.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a>',
     Ansible: '<a href="https://www.ansible.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/ansible/ansible-icon.svg" alt="docker" width="40" height="40"/> </a>',
-    Phoronix: '<a href=# target="_blank"><img src="https://logo-download.com/wp-content/data/images/svg/Phoronix-Test-Suite-logo.svg" alt="phoronix" width="50" height="40"/></a>',
-    Slurm: '<a href="https://slurm.schedmd.com/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Slurm_logo.svg" alt="slurm" width="40" height="40"></a>', 
+    Phoronix: '<a href=# target="_blank"><img src="https://phoronix-test-suite.com/img/ptsLogo.png" alt="phoronix" width="50" height="40"/></a>',
+    Slurm: '<a href="https://slurm.schedmd.com/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Slurm_logo.svg" alt="slurm" width="40" height="40"></a>',
     " ": " ",
-    
+
   },
   experience: [
     {
@@ -61,7 +61,7 @@ module.exports = {
     {
 
       title: 'IT support (part-time)',
-      place:'IT support dept. Ensimag',
+      place: 'IT support dept. Ensimag',
       link: 'https://ensimag.grenoble-inp.fr/',
       date: '2018-2021',
       badges: ['Linux', 'IT support'],
@@ -97,8 +97,8 @@ module.exports = {
     },
     {
       header: '<a href="https://github.com/michaelb?tab=repositories&q=&type=source&language=&sort=stargazers" target="_blank" style="text-decoration:none !important; color:inherit;">... and many others:</a>',
-      skills:[],
-      contents:`
+      skills: [],
+      contents: `
 <ul>
 <li> <a href="https://github.com/michaelb/shogai" target="_blank" style="text-decoration:underline !important; color:inherit;">shogai</a> and <a href="https://github.com/michaelb/shogui" target="_blank" style="text-decoration:underline !important; color:inherit;">shogui</a>, a shogi library and GUI both written in Rust </li>
 <li> a surface reconstruction algorithm, in Python </li>
